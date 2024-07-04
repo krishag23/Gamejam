@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Winmenu : MonoBehaviour
 {
-   public void RestartGame()
+    private void Start()
+    {
+        Cursor.visible = true;
+    }
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -2);
     }
