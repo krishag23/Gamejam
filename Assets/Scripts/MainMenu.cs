@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     {
         instructionpannel.SetActive(false);
         Mainmenu.SetActive(true);
+        Cursor.visible = true;
     }
     public void PlayGame()
     {

@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LostMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.visible = true;
+    }
     // public AudioSource buttonclick;
     public void RestartGame()
     {
